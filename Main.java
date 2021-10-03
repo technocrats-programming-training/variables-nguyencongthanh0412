@@ -17,14 +17,14 @@ public class Main {
 				// if the number's remamnder is 0 that means the number is even, or else it's odd
 			int ageRemander = age % 2;
 			boolean ageIsEven = ageRemander == 0;
-			System.out.println("age is even: " + ageIsEven);
+			System.out.println(ageIsEven);
 			
         // Print out whether firstName equals lastName
 			boolean areTheyEqual = firstName.equals(lastName);
-			System.out.println("firstName equal lastName: " + areTheyEqual);
+			System.out.println(areTheyEqual);
         // Print out whether age is greater than 0
 			boolean isAgeGreater = age > 0;
-			System.out.println("age is greater than 0: " + isAgeGreater);
+			System.out.println(isAgeGreater);
 		
     }
 }
