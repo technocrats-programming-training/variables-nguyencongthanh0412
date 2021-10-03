@@ -12,13 +12,17 @@ public class Main {
         
 
         // Print out the following string: "Hello, I am <firstName> <lastName>, and I am <age> years old"
-			System.out.println("Hello, I am "+firstName+" "+lastName+", and I am "+age+" years old");
+			System.out.println("Hello, I am " + firstName + lastName + ", and I am" + age + "years old");
         // Print out whether age is even
-			
+				// if the number's remamnder is 0 that means the number is even, or else it's odd
+			int ageRemander = age % 2;
+			boolean ageIsEven = ageRemander == 0;
+			System.out.println(ageIsEven);
         // Print out whether firstName equals lastName
-			boolean doesItEqual = "firstName".equals("lastName");
-			System.out.print(doesItEqual);
+			boolean areTheyEqual = firstName.equals(lastName);
+			System.out.println(areTheyEqual);
         // Print out whether age is greater than 0
-			
+			boolean isAgeGreater = age > 0;
+			System.out.println(isAgeGreater);
     }
 }
